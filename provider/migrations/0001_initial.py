@@ -22,7 +22,7 @@ class Migration(migrations.Migration):
                 ('scope', models.IntegerField(default=2, choices=[(2, b'read'), (4, b'write'), (6, b'read+write')])),
             ],
             options={
-                'db_table': 'oauth2_accsesstoken',
+                'db_table': 'oauth2_accesstoken',
             },
         ),
         migrations.CreateModel(
