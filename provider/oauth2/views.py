@@ -1,9 +1,9 @@
 from datetime import timedelta
 from django.core.urlresolvers import reverse
-from provider import constants
-from provider.views import Capture, Authorize, Redirect
-from provider.views import AccessToken as AccessTokenView, OAuthError
-from provider.utils import now
+from .. import constants
+from ..views import Capture, Authorize, Redirect
+from ..views import AccessToken as AccessTokenView, OAuthError
+from ..utils import now
 from .forms import AuthorizationRequestForm, AuthorizationForm
 from .forms import PasswordGrantForm, RefreshTokenGrantForm
 from .forms import AuthorizationCodeGrantForm

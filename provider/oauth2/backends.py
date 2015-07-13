@@ -1,4 +1,4 @@
-from provider.utils import now
+from ..utils import now
 from .forms import ClientAuthForm, PublicPasswordGrantForm
 from .models import AccessToken
 
